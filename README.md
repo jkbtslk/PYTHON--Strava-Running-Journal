@@ -3,10 +3,10 @@
 contact - jakub.tesluk@gmail.com
 Strava - https://www.strava.com/athletes/23952867
 version 1.0 - 26/12/2022
+version 1.1 - 26/02/2023 - rest day detection added
 ________________________
 Script uses Strava API to gather your running activities and sends them to Google Sheet running journal (template can
 be found -> .
-IMPORTANT - rest days should have the DATE cell empty!
 
 Script consists of two files. Script anc pace_calculator.py. Calculator is necessary to calculate the running pace.
 
