@@ -1,4 +1,4 @@
-# StravaRunningJournal
+# StravaRunningLog
 
 contact - jakub.tesluk@gmail.com
 Strava - https://www.strava.com/athletes/23952867
