@@ -7,7 +7,7 @@ version history
 1.1 - 26/02/2023 - added 
 ________________________
 Script uses Strava API to gather your running activities and sends them to Google Sheet running journal (template can
-be found -> .
+be found here -> https://docs.google.com/spreadsheets/d/1j7l_FCBkn2b91tRHDA_iI0bXczwVnMg0p0RmMQwrH4I/copy.
 
 Script consists of two files. Script anc pace_calculator.py. Calculator is necessary to calculate the running pace.
 
