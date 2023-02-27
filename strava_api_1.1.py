@@ -130,9 +130,11 @@ for activity in activities:
 		print(activity['name'], 'updated!\n')
 
 all_activities_done = sheet.col_values(2)
+rest_days = 0
 print("\nUpdating rest days...\n")
 for index, val in enumerate(all_activities_done, start=1):
 		if val == "":
+			rest_days += 1
 			sheet.merge_cells(f"B{index}:I{index}", merge_type='MERGE_ALL')
 			time.sleep(1)
 			sheet.update_cell(index, 2, 'WOLNE')
@@ -146,4 +148,5 @@ for index, val in enumerate(all_activities_done, start=1):
 				"horizontalAlignment": "CENTER",
 			})
 print("---- UPDATE COMPLETED ----")
-print(f'{len(activities)} training days updated!')
+print(f'{len(activities)} training day(s) updated!')
+print(rest_days, 'rest day(s) updated!')
