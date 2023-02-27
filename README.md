@@ -4,6 +4,7 @@ contact - jakub.tesluk@gmail.com
 Strava - https://www.strava.com/athletes/23952867
 version 1.0 - 26/12/2022
 version 1.1 - 26/02/2023 - rest day detection added
+version 1.2 - 27/02/2023 - rest day counter added
 ________________________
 Script uses Strava API to gather your running activities and sends them to Google Sheet running journal (template can
 be found here -> https://docs.google.com/spreadsheets/d/1j7l_FCBkn2b91tRHDA_iI0bXczwVnMg0p0RmMQwrH4I/copy.
